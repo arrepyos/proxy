@@ -17,4 +17,4 @@ ExecStart=docker compose up -d
 ExecStop=docker compose stop
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.
