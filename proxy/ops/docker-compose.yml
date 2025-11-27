@@ -1,4 +1,4 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
+# Copyright (c)h Inc. and affiliates.
 #
 # License found in the LICENSE file in the root directory
 # of this source tree.
@@ -21,7 +21,7 @@ services:
       - "7777:7777" # whatsapp.net
     healthcheck:
       test: /usr/local/bin/healthcheck.sh
-      interval: 10s
-      start_period: 5s
+      interval: 60s
+      start_period: 8
     environment:
       - PUBLIC_IP=10.0.0.1
