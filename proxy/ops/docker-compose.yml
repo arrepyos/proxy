@@ -20,7 +20,7 @@ services:
       - "587:587"   # whatsapp.net
       - "7777:7777" # whatsapp.net
     healthcheck:
-      test: /usr/local/bin/healthcheck.sh
+      test: /usr/bin/healthcheck.sh
       interval: 60s
       start_period: 8
     environment:
